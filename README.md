@@ -1,4 +1,8 @@
-<h1 align="center"><b>Effect Size Calculator</b></h1>
+<h1 align="center">
+  <img width="260" alt="Effect Size Calculator" src="https://github.com/user-attachments/assets/aed0c7e1-f080-4c19-8d20-785ffd705cd5" />
+  <br />
+  <b>Effect Size Calculator</b>
+</h1>
 
 <p align="center">A PyQt6 desktop application for calculating and visualizing statistical effect sizes from CSV and Excel datasets.</p>
 
