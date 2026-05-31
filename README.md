@@ -1,7 +1,7 @@
 <h1 align="center">
-  <img width="260" alt="Effect Size Calculator" src="https://github.com/user-attachments/assets/aed0c7e1-f080-4c19-8d20-785ffd705cd5" />
+  <img width="260" alt="Esc" src="https://github.com/user-attachments/assets/aed0c7e1-f080-4c19-8d20-785ffd705cd5" />
   <br />
-  <b>Effect Size Calculator</b>
+  <b>Esc</b>
 </h1>
 
 <p align="center">A PyQt6 desktop application for calculating and visualizing statistical effect sizes from CSV and Excel datasets.</p>
@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/PyQt6-GUI-green?style=for-the-badge&logo=qt&logoColor=white" alt="PyQt6">
   <img src="https://img.shields.io/badge/pandas-Data-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas">
   <img src="https://img.shields.io/badge/matplotlib-Charts-orange?style=for-the-badge&logo=matplotlib&logoColor=white" alt="matplotlib">
-  <img src="https://img.shields.io/github/license/Hezi777/EffectSizeCalculator?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/github/license/Hezi777/Esc?style=for-the-badge" alt="License">
 </p>
 
 <p align="center">
@@ -26,7 +26,7 @@
 
 ## About
 
-Effect Size Calculator is a cross-platform desktop tool aimed at researchers, data analysts, and students who need to quantify the practical significance of their findings without writing custom analysis scripts. It handles the full workflow — loading a dataset, previewing it, selecting the appropriate effect size metric, generating a publication-quality chart, and exporting results — entirely through a guided GUI. The stepwise interface prevents invalid analysis configurations by unlocking controls only after each prerequisite step is satisfied.
+Esc is a cross-platform desktop tool aimed at researchers, data analysts, and students who need to quantify the practical significance of their findings without writing custom analysis scripts. It handles the full workflow — loading a dataset, previewing it, selecting the appropriate effect size metric, generating a publication-quality chart, and exporting results — entirely through a guided GUI. The stepwise interface prevents invalid analysis configurations by unlocking controls only after each prerequisite step is satisfied.
 
 ## Features
 
@@ -70,8 +70,8 @@ Effect Size Calculator is a cross-platform desktop tool aimed at researchers, da
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Hezi777/EffectSizeCalculator.git
-cd EffectSizeCalculator
+git clone https://github.com/Hezi777/Esc.git
+cd Esc
 ```
 
 ### 2. Install dependencies
