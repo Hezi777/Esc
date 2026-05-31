@@ -4,7 +4,7 @@
   <b>Esc</b>
 </h1>
 
-<p align="center">A PyQt6 desktop application for calculating and visualizing statistical effect sizes from CSV and Excel datasets.</p>
+<p align="center"><b>Effect Size Calculator</b> — a PyQt6 desktop application for calculating and visualizing statistical effect sizes from CSV and Excel datasets.</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.7%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python">
