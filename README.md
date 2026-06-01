@@ -4,7 +4,7 @@
   <b>Esc</b>
 </h1>
 
-<p align="center"><b>Effect Size Calculator</b> — a PyQt6 desktop application for calculating and visualizing statistical effect sizes from CSV and Excel datasets.</p>
+<p align="center"><b>Effect Size Calculator</b> - a PyQt6 desktop app for calculating and visualizing statistical effect sizes from CSV and Excel datasets.</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.7%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python">
@@ -26,29 +26,29 @@
 
 ## About
 
-Esc is a cross-platform desktop tool aimed at researchers, data analysts, and students who need to quantify the practical significance of their findings without writing custom analysis scripts. It handles the full workflow — loading a dataset, previewing it, selecting the appropriate effect size metric, generating a publication-quality chart, and exporting results — entirely through a guided GUI. The stepwise interface prevents invalid analysis configurations by unlocking controls only after each prerequisite step is satisfied.
+Esc is a cross-platform desktop tool for quantifying the practical significance of statistical findings - without writing custom analysis scripts. Load a CSV or Excel file, pick a metric (Cohen's d, Cramér's V, Pearson's r, or eta-squared), and get a chart ready to export as PNG, JPG, or PDF. The UI is stepwise - each control unlocks only after the previous step is valid.
 
 ## Features
 
 | Area | Description |
 |---|---|
-| Effect size metrics | Supports Cohen's d, Cramér's V, Pearson's r, and eta-squared (ANOVA) |
-| Data input | Loads CSV and Excel (.xlsx) files; previews the first 10 rows in-app |
-| Visualization | Generates box plots, violin plots, strip plots, scatter plots, regression lines, hexbin plots, contingency heatmaps, and bar charts |
-| Theme toggle | Switches between light and dark mode for presentation-ready output |
+| Effect size metrics | Cohen's d, Cramér's V, Pearson's r, and eta-squared (ANOVA) |
+| Data input | Loads CSV and Excel (.xlsx); previews the first 10 rows in-app |
+| Visualization | Box plots, violin plots, strip plots, scatter plots, regression lines, hexbin plots, contingency heatmaps, and bar charts |
+| Theme toggle | Light and dark mode for presentation-ready output |
 | Chart export | Saves plots as PNG, JPG, or PDF |
 | Validation | Real-time progress bar and error dialogs guide valid analysis configuration |
-| Platform support | Runs on Windows, macOS, and Linux |
+| Platform support | Windows, macOS, and Linux |
 
 ## Screenshots
 
 **Light Mode**
 
-<img width="532" height="721" alt="v3 3 Light Mode Screenshot " src="https://github.com/user-attachments/assets/aed0c7e1-f080-4c19-8d20-785ffd705cd5" />
+<img width="532" height="721" alt="v3 3 Light Mode Screenshot" src="https://github.com/user-attachments/assets/aed0c7e1-f080-4c19-8d20-785ffd705cd5" />
 
 **Dark Mode**
 
-<img width="536" height="719" alt="v3 3 Dark Mode Screenshot " src="https://github.com/user-attachments/assets/4421b4f7-4392-4b59-a13a-f511cd6b7e3e" />
+<img width="536" height="719" alt="v3 3 Dark Mode Screenshot" src="https://github.com/user-attachments/assets/4421b4f7-4392-4b59-a13a-f511cd6b7e3e" />
 
 ## Tech Stack
 
@@ -62,27 +62,12 @@ Esc is a cross-platform desktop tool aimed at researchers, data analysts, and st
 
 ## Getting Started
 
-### Prerequisites
-
-- Python 3.7 or higher
-- pip
-
-### 1. Clone the repository
+**Prerequisites:** Python 3.7+, pip
 
 ```bash
 git clone https://github.com/Hezi777/Esc.git
 cd Esc
-```
-
-### 2. Install dependencies
-
-```bash
 pip install -r requirements.txt
-```
-
-### 3. Run the app
-
-```bash
 python src/main.py
 ```
 
@@ -96,4 +81,4 @@ python src/main.py
 
 ## License
 
-This project is distributed under the MIT License. See [LICENSE](LICENSE) for details.
+MIT
